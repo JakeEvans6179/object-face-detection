@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 #Load YOLOv8 model
-model = YOLO('2dog_onehuman_test.pt')  #Custom model
+model = YOLO('facial_expression_best.pt')  #Custom model
 
 #0 = default webcam
 capture = cv2.VideoCapture(0)
